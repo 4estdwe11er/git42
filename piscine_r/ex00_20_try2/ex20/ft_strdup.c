@@ -24,7 +24,9 @@ char    *ft_strdup(char *source)
     // copy = malloc(sizeof(source) * (length + 1));
     // or
     // malloc(sizeof(length + 1));
+    // from my understanding it is because u need a specific variable type (like char)
 
+    
     // if there is a problem in space allocation , return NULL
     if (copy == NULL)
     {
